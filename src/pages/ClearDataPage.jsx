@@ -5,7 +5,7 @@ export default function DataClearButtons() {
 
   const clearBackendData = async () => {
     try {
-      const res = await fetch("http://localhost:5000/admin/clear-data", {
+      const res = await fetch("https://pollingbackend-production-6d6b.up.railway.app/admin/clear-data", {
         method: "POST",
       });
       const data = await res.json();
@@ -20,7 +20,8 @@ export default function DataClearButtons() {
 
   const clearLocalStorageData = () => {
     localStorage.clear();
-    // alert("Local storage data cleared.");
+    alert("Local storage data cleared.");
+    navigate('/');
     window.location.reload();
   };
 
