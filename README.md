@@ -56,4 +56,7 @@ A real-time polling application with two user roles: **Teacher** and **Student**
 
 <img width="1700" height="933" alt="questiosnpage" src="https://github.com/user-attachments/assets/0424be54-d56f-4061-a148-cb9f8df95fae" />
 
+<img width="1067" height="886" alt="history" src="https://github.com/user-attachments/assets/0963da66-7d39-41be-b3e3-420da514f7d8" />
+
+
 <img width="1552" height="937" alt="screen" src="https://github.com/user-attachments/assets/0d3c7e14-1e74-4ee5-a8d6-b2fcc53653dd" />
