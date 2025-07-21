@@ -1,12 +1,45 @@
-# React + Vite
+# Live Polling System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time polling application with two user roles: **Teacher** and **Student**. Built with **React**, **Express.js**, and **Socket.IO**, it supports live question broadcasting, timed responses, and instant result visualization.
 
-Currently, two official plugins are available:
+ **Live Demo**: [polling-frontend-kappa.vercel.app](https://polling-frontend-kappa.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Teacher Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  Create new poll questions
+-  Ask a new question only if no active question exists or all students have answered
+-  View real-time poll results
+-  Set a time limit for answering each question *(Good to have)*
+-  Kick students from the session *(Good to have)*
+-  View past poll results *(Bonus task)*
+
+---
+
+## Student Features
+
+- 🧾 Enter a unique name per tab (session-scoped)
+- 📝 Submit answers only when a question is active
+- ⏲️ 60 seconds max to answer a question (auto-expires)
+- 📊 See live results after submitting or after time expiry
+- 💬 Chat with teacher (Bonus task)
+
+---
+
+## Tech Stack
+
+| Layer       | Tech                 |
+|-------------|----------------------|
+| Frontend    | React, Context API / Redux |
+| Backend     | Node.js, Express.js  |
+| Real-Time   | Socket.IO            |
+| Hosting     | Vercel (Frontend), railway(backend)|
+| Styling     | Tailwind CSS / CSS Modules |
+
+---
+ Screenshots
+Upload screenshots by dragging them here or committing them to a /screenshots folder.
+
+
+
